@@ -1,0 +1,14 @@
+
+ipynb==0.5.1
+keras==2.10.0
+librosa==0.9.2
+matplotlib==3.5.2
+numpy==1.22.4
+pandas==1.4.3
+praat-parselmouth==0.4.3
+pydub==0.25.1
+python==3.9.12
+scipy==1.8.1
+seaborn==0.11.2
+tensorflow==2.10.0
+tensorflow-hub==0.13.0
