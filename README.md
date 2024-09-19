@@ -108,8 +108,8 @@ For preprocessing the audio data accordingly, refer to the 'Preprocessing' noteb
 In this section, you'll find detailed instructions on how to effectively utilize the main file of this repository. Follow these steps to get started with the provided functionality.
 
 In the following grphic, you can see an image of the entire pipeline. It is divided into its individual steps. The gray dashed blocks each represent a notebook. Under these blocks, you will find the name of the notebook and the most important parameters, which can be adjusted in the `_00_Pipeline.ipynb` file.   
-
-![Pipeline](https://github.com/WoLFi22/Pipeline/assets/86249748/1d910a6a-76c5-40f3-8d97-a00a48b57ebe)    
+ 
+![Pipeline](https://github.com/user-attachments/assets/ed7f95ae-b617-4424-88bb-f22d43d40059)
 
 All other parameters that can be adjusted are also listed in the `_00_Pipeline.ipynb` file. Once all parameters are correctly filled in, the `_00_Pipeline.ipynb` notebook can be executed.
 
