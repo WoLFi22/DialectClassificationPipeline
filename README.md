@@ -109,7 +109,8 @@ In this section, you'll find detailed instructions on how to effectively utilize
 
 In the following grphic, you can see an image of the entire pipeline. It is divided into its individual steps. The gray dashed blocks each represent a notebook. Under these blocks, you will find the name of the notebook and the most important parameters, which can be adjusted in the `_00_Pipeline.ipynb` file.
 
-![Pipeline](https://github.com/user-attachments/assets/aa76aac0-358c-47c1-8aa9-e674f0dd403f)
+![Pipeline](https://github.com/user-attachments/assets/7272a6f0-5482-429d-8289-75d211c9c8f4)
+
 
 All other parameters that can be adjusted are also listed in the `_00_Pipeline.ipynb` file. Once all parameters are correctly filled in, the `_00_Pipeline.ipynb` notebook can be executed.
 
