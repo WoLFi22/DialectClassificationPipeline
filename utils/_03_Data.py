@@ -64,7 +64,7 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 # In[3]:
 
 
-def create_data(model_path, length, batch_size, name_aug, max_length_speaker, max_length_dialect, test_only):
+def create_data(model_path, length, overlap, batch_size, name_aug, max_length_speaker, max_length_dialect, test_only):
     timeCountTotal = 0.0
     startTotal = time.time()
     if (test_only):
@@ -91,6 +91,8 @@ def create_data(model_path, length, batch_size, name_aug, max_length_speaker, ma
             max_times_dialect = int(max_length_dialect/length)
         
     length = int(length*16000)
+    overlap = int(overlap*16000)
+    hop = int(length - overlap)
     
     # cut Audios in length long Segments and save it in df_learn
     for index, row in df.iterrows():
@@ -111,12 +113,12 @@ def create_data(model_path, length, batch_size, name_aug, max_length_speaker, ma
         if (file_path is not None):
             audio, sr = librosa.load(file_path, sr=16000, dtype=np.float32)
     
-            times = len(audio)//(length)
-            for i in range(0, times):
-                ad = audio[i*length:((i+1)*length)]
+            for start in range(0, len(audio) - length + 1, hop):
+                end = start + length
+                ad = audio[start:end]
                 audio_samples.append(ad)
-                list_row = [class_label, name, [], file_path, speaker, i*length, ((i+1)*length)-1]
-                df_learn.loc[len(df_learn)] = list_row 
+                list_row = [class_label, name, [], file_path, speaker, start, end-1]
+                df_learn.loc[len(df_learn)] = list_row
                 
     if max_length_speaker is not None:
         df_learn, audio_samples = filter_excess_names(df_learn, audio_samples, max_times_speaker, 'speaker')
