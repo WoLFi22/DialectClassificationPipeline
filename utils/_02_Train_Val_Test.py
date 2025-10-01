@@ -4,6 +4,7 @@
 # In[1]:
 
 
+from pydub.exceptions import CouldntDecodeError
 from pydub import AudioSegment
 from random import sample
 from pathlib import Path
@@ -71,8 +72,13 @@ def sub(df, path, aug, name_aug):
     
     all_dialects = glob(path + '\\*', recursive = True)
     for dialect in all_dialects:
-        all_speaker = np.concatenate((all_speaker, glob(dialect + '\\*', recursive = True)), axis=None)
-        all_speaker_name.append([f.name for f in os.scandir(dialect) if f.is_dir()])
+        if os.path.isdir(dialect):
+            try:
+                all_speaker = np.concatenate((all_speaker, glob(dialect + '\\*', recursive = True)), axis=None)
+                all_speaker_name.append([f.name for f in os.scandir(dialect) if f.is_dir()])
+            except PermissionError as e:
+                print(f"Skipping {dialect}: PermissionError ({e})")
+                continue
 
     audios = []
     for path in all_speaker:
@@ -80,13 +86,20 @@ def sub(df, path, aug, name_aug):
     
     for audio in audios:
         split = audio.split('\\')
-    
-        audio_segment = AudioSegment.from_file(audio, "wav") 
-        duration = len(audio_segment)
-    
+        try:
+            audio_segment = AudioSegment.from_file(audio, "wav") 
+            duration = len(audio_segment)
+        except CouldntDecodeError as e:
+            print(f"Skipping {audio} (decode error: {e})")
+            continue
+        except Exception as e:
+            print(f"Skipping {audio} (unexpected error: {e})")
+            continue
+
         speaker = split[-2]
         list_row = [split[-3], speaker, Path(audio).name, duration, audio, aug]
         df.loc[len(df)] = list_row
+    
     return df
 
 
