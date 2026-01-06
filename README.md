@@ -1,6 +1,6 @@
 # Speech-Audio Classification Pipeline
 
-This repository provides a pipeline for dialect classification using deep learning on raw audio files. The pipeline utilizes a Google model to extract embeddings from audio segments of uniform length, which are then classified with a small Convolutional Neural Network (CNN).  
+This repository provides a pipeline for dialect classification using deep learning on raw audio files. The pipeline utilizes a Google model to extract embeddings from audio segments of uniform length, which are then classified with a Multilayer Perceptron (MLP).  
 
 ### Key Features
 - Easily Adjustable Parameters: The main parameters are easily customizable, allowing for repeated use of the pipeline and facilitating experimentation.
@@ -109,7 +109,7 @@ In this section, you'll find detailed instructions on how to effectively utilize
 
 In the following grphic, you can see an image of the entire pipeline. It is divided into its individual steps. The gray dashed blocks each represent a notebook. Under these blocks, you will find the name of the notebook and the most important parameters, which can be adjusted in the `_00_Pipeline.ipynb` file.
 
-![Pipeline](https://github.com/user-attachments/assets/7272a6f0-5482-429d-8289-75d211c9c8f4)
+![Pipeline](https://github.com/user-attachments/assets/89334372-4c31-4b50-bdb3-c16e9e6b7a46)
 
 
 All other parameters that can be adjusted are also listed in the `_00_Pipeline.ipynb` file. Once all parameters are correctly filled in, the `_00_Pipeline.ipynb` notebook can be executed.
