@@ -138,7 +138,7 @@ The model corresponds to the experimental setup described and used in *[Paper XY
 - **File**: `model_weights_0.h5`
 - **Training Data**:
   - 18 German dialect classes
-  - >42 hours of speech data
+  - over 42 hours of speech data
   - Multiple speaker generations
 - **Input Representation**:
   - 10 s segments (16 kHz mono)
