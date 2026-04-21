@@ -1,0 +1,880 @@
+sprecher,situation,value,dialekt
+KFALT3,FG,2.5,Swabian
+KFALT3,Interview,1.5,Swabian
+KFALT3,Nordwind,1.1,Swabian
+KFALT3,WS_Dialekt,2.7,Swabian
+KFALT3,WS_Standard,1.1,Swabian
+KF1,FG,1.9,Swabian
+KF1,Interview,1.8,Swabian
+KF1,Nordwind,1.1,Swabian
+KF1,WS_Dialekt,2.6,Swabian
+KF1,WS_Standard,1.0,Swabian
+KFJUNG1,FG,1.0,Swabian
+KFJUNG1,Interview,1.1,Swabian
+KFJUNG1,Nordwind,0.8,Swabian
+KFJUNG1,WS_Dialekt,2.2,Swabian
+KFJUNG1,WS_Standard,0.7,Swabian
+BLALT1,FG,2.4,Swabian
+BLALT1,Interview,2.2,Swabian
+BLALT1,Nordwind,1.5,Swabian
+BLALT1,WS_Dialekt,2.7,Swabian
+BLALT1,WS_Standard,1.3,Swabian
+BL2,FG,2.2,Swabian
+BL2,Interview,2.0,Swabian
+BL2,Nordwind,1.1,Swabian
+BL2,WS_Dialekt,2.5,Swabian
+BL2,WS_Standard,0.8,Swabian
+BLJUNG1,FG,1.4,Swabian
+BLJUNG1,Interview,1.2,Swabian
+BLJUNG1,Nordwind,1.0,Swabian
+BLJUNG1,WS_Dialekt,2.2,Swabian
+BLJUNG1,WS_Standard,0.9,Swabian
+WNALT1,FG,2.5,Swabian
+WNALT1,Interview,1.4,Swabian
+WNALT1,Nordwind,1.3,Swabian
+WNALT1,WS_Dialekt,2.5,Swabian
+WNALT1,WS_Standard,1.1,Swabian
+WN3,FG,2.3,Swabian
+WN3,Interview,2.0,Swabian
+WN3,Nordwind,1.0,Swabian
+WN3,WS_Dialekt,2.5,Swabian
+WN3,WS_Standard,0.8,Swabian
+WNJUNG1,FG,1.4,Swabian
+WNJUNG1,Interview,1.2,Swabian
+WNJUNG1,Nordwind,1.1,Swabian
+WNJUNG1,WS_Dialekt,2.3,Swabian
+WNJUNG1,WS_Standard,1.0,Swabian
+ULALT1,FG,2.4,Swabian
+ULALT1,Interview,2.1,Swabian
+ULALT1,Nordwind,1.1,Swabian
+ULALT1,WS_Dialekt,2.6,Swabian
+ULALT1,WS_Standard,1.4,Swabian
+UL1,FG,2.3,Swabian
+UL1,Interview,1.7,Swabian
+UL1,Nordwind,1.1,Swabian
+UL1,WS_Dialekt,2.3,Swabian
+UL1,WS_Standard,0.9,Swabian
+ULJUNG2,FG,2.1,Swabian
+ULJUNG2,Interview,1.9,Swabian
+ULJUNG2,Nordwind,1.0,Swabian
+ULJUNG2,WS_Dialekt,2.4,Swabian
+ULJUNG2,WS_Standard,1.1,Swabian
+DLGALT2,FG,2.3,Swabian
+DLGALT2,Interview,1.6,Swabian
+DLGALT2,Nordwind,1.0,Swabian
+DLGALT2,WS_Dialekt,2.3,Swabian
+DLGALT2,WS_Standard,1.4,Swabian
+DLG1,FG,2.1,Swabian
+DLG1,Interview,1.8,Swabian
+DLG1,Nordwind,1.5,Swabian
+DLG1,WS_Dialekt,2.6,Swabian
+DLG1,WS_Standard,1.3,Swabian
+DLGJUNG2,FG,1.6,Swabian
+DLGJUNG2,Interview,1.5,Swabian
+DLGJUNG2,Nordwind,1.1,Swabian
+DLGJUNG2,WS_Dialekt,2.5,Swabian
+DLGJUNG2,WS_Standard,1.0,Swabian
+EFALT2,FG,1.0,East Middle German
+EFALT2,Interview,1.0,East Middle German
+EFALT2,Nordwind,0.8,East Middle German
+EFALT2,WS_Dialekt,1.3,East Middle German
+EFALT2,WS_Standard,0.7,East Middle German
+EF2,FG,1.4,East Middle German
+EF2,Interview,1.2,East Middle German
+EF2,Nordwind,1.0,East Middle German
+EF2,WS_Dialekt,1.0,East Middle German
+EF2,WS_Standard,0.8,East Middle German
+EFJUNG2,FG,1.1,East Middle German
+EFJUNG2,Interview,1.1,East Middle German
+EFJUNG2,Nordwind,0.8,East Middle German
+EFJUNG2,WS_Dialekt,1.1,East Middle German
+EFJUNG2,WS_Standard,0.6,East Middle German
+GALT1,FG,1.2,
+GALT1,Interview,1.3,
+GALT1,Nordwind,1.0,
+GALT1,WS_Dialekt,1.0,
+GALT1,WS_Standard,1.1,
+G2,FG,1.3,
+G2,Interview,1.4,
+G2,Nordwind,1.1,
+G2,WS_Dialekt,1.4,
+G2,WS_Standard,1.1,
+KYFALT2,FG,2.4,East Middle German
+KYFALT2,Interview,2.0,East Middle German
+KYFALT2,Nordwind,1.6,East Middle German
+KYFALT2,WS_Dialekt,2.5,East Middle German
+KYFALT2,WS_Standard,1.8,East Middle German
+KYF5,FG,1.6,East Middle German
+KYF5,Interview,1.7,East Middle German
+KYF5,Nordwind,1.2,East Middle German
+KYF5,WS_Dialekt,1.3,East Middle German
+KYF5,WS_Standard,1.1,East Middle German
+ZALT1,FG,1.8,East Middle German
+ZALT1,Interview,1.9,East Middle German
+ZALT1,Nordwind,1.5,East Middle German
+ZALT1,WS_Dialekt,1.8,East Middle German
+ZALT1,WS_Standard,1.4,East Middle German
+Z9,FG,2.0,East Middle German
+Z9,Interview,2.0,East Middle German
+Z9,Nordwind,1.5,East Middle German
+Z9,WS_Dialekt,2.2,East Middle German
+Z9,WS_Standard,1.3,East Middle German
+WTALT1,FG,1.6,High Alemannic
+WTALT1,Interview,1.0,High Alemannic
+WTALT1,Nordwind,0.6,High Alemannic
+WTALT1,WS_Dialekt,2.1,High Alemannic
+WTALT1,WS_Standard,0.7,High Alemannic
+WT1,FG,1.6,High Alemannic
+WT1,Interview,1.1,High Alemannic
+WT1,Nordwind,0.7,High Alemannic
+WT1,WS_Dialekt,1.7,High Alemannic
+WT1,WS_Standard,0.7,High Alemannic
+WTJUNG1,FG,0.4,High Alemannic
+WTJUNG1,Interview,0.4,High Alemannic
+WTJUNG1,Nordwind,0.4,High Alemannic
+WTJUNG1,WS_Dialekt,,High Alemannic
+WTJUNG1,WS_Standard,0.3,High Alemannic
+DDALT,FG,1.3,East Middle German
+DDALT,Interview,1.2,East Middle German
+DDALT,Nordwind,1.0,East Middle German
+DDALT,WS_Dialekt,1.0,East Middle German
+DDALT,WS_Standard,0.9,East Middle German
+DD4,FG,1.1,East Middle German
+DD4,Interview,1.0,East Middle German
+DD4,Nordwind,0.8,East Middle German
+DD4,WS_Dialekt,1.0,East Middle German
+DD4,WS_Standard,0.9,East Middle German
+DDJUNG2,FG,1.0,East Middle German
+DDJUNG2,Interview,0.9,East Middle German
+DDJUNG2,Nordwind,0.8,East Middle German
+DDJUNG2,WS_Dialekt,1.3,East Middle German
+DDJUNG2,WS_Standard,0.9,East Middle German
+BAALT,FG,1.6,East Franconian
+BAALT,Interview,1.5,East Franconian
+BAALT,Nordwind,1.0,East Franconian
+BAALT,WS_Dialekt,1.7,East Franconian
+BAALT,WS_Standard,0.9,East Franconian
+BA1,FG,1.5,East Franconian
+BA1,Interview,1.4,East Franconian
+BA1,Nordwind,0.9,East Franconian
+BA1,WS_Dialekt,1.7,East Franconian
+BA1,WS_Standard,0.8,East Franconian
+BAJUNG2,FG,0.8,East Franconian
+BAJUNG2,Interview,0.8,East Franconian
+BAJUNG2,Nordwind,0.7,East Franconian
+BAJUNG2,WS_Dialekt,1.1,East Franconian
+BAJUNG2,WS_Standard,0.7,East Franconian
+TSALT1,FG,2.3,Bavarian
+TSALT1,Interview,1.8,Bavarian
+TSALT1,Nordwind,1.1,Bavarian
+TSALT1,WS_Dialekt,2.4,Bavarian
+TSALT1,WS_Standard,1.0,Bavarian
+TS2,FG,2.1,Bavarian
+TS2,Interview,1.8,Bavarian
+TS2,Nordwind,0.9,Bavarian
+TS2,WS_Dialekt,2.2,Bavarian
+TS2,WS_Standard,0.8,Bavarian
+TSJUNG1,FG,2.0,Bavarian
+TSJUNG1,Interview,1.1,Bavarian
+TSJUNG1,Nordwind,1.0,Bavarian
+TSJUNG1,WS_Dialekt,2.1,Bavarian
+TSJUNG1,WS_Standard,0.9,Bavarian
+RDALT,FG,1.6,Northern Low German
+RDALT,Interview,0.8,Northern Low German
+RDALT,Nordwind,0.9,Northern Low German
+RDALT,WS_Dialekt,2.7,Northern Low German
+RDALT,WS_Standard,0.8,Northern Low German
+RD5,FG,1.5,Northern Low German
+RD5,Interview,0.5,Northern Low German
+RD5,Nordwind,0.2,Northern Low German
+RD5,WS_Dialekt,2.1,Northern Low German
+RD5,WS_Standard,0.4,Northern Low German
+RDJUNG1,FG,0.7,Northern Low German
+RDJUNG1,Interview,0.5,Northern Low German
+RDJUNG1,Nordwind,0.5,Northern Low German
+RDJUNG1,WS_Dialekt,,Northern Low German
+RDJUNG1,WS_Standard,0.4,Northern Low German
+HSTALT1,FG,1.6,Mecklenburgish Pomeranian
+HSTALT1,Interview,0.7,Mecklenburgish Pomeranian
+HSTALT1,Nordwind,0.4,Mecklenburgish Pomeranian
+HSTALT1,WS_Dialekt,2.3,Mecklenburgish Pomeranian
+HSTALT1,WS_Standard,0.6,Mecklenburgish Pomeranian
+HST1,FG,0.7,Mecklenburgish Pomeranian
+HST1,Interview,0.6,Mecklenburgish Pomeranian
+HST1,Nordwind,0.4,Mecklenburgish Pomeranian
+HST1,WS_Dialekt,0.7,Mecklenburgish Pomeranian
+HST1,WS_Standard,0.5,Mecklenburgish Pomeranian
+HSTJUNG1,FG,0.8,Mecklenburgish Pomeranian
+HSTJUNG1,Interview,0.6,Mecklenburgish Pomeranian
+HSTJUNG1,Nordwind,0.5,Mecklenburgish Pomeranian
+HSTJUNG1,WS_Dialekt,,Mecklenburgish Pomeranian
+HSTJUNG1,WS_Standard,0.6,Mecklenburgish Pomeranian
+WITALT,FG,1.4,
+WITALT,Interview,1.0,
+WITALT,Nordwind,0.5,
+WITALT,WS_Dialekt,1.9,
+WITALT,WS_Standard,0.7,
+WIT10,FG,0.9,Moselle Franconian
+WIT10,Interview,0.7,Moselle Franconian
+WIT10,Nordwind,0.4,Moselle Franconian
+WIT10,WS_Dialekt,1.0,Moselle Franconian
+WIT10,WS_Standard,0.4,Moselle Franconian
+WITJUNG2,FG,0.9,Moselle Franconian
+WITJUNG2,Interview,0.6,Moselle Franconian
+WITJUNG2,Nordwind,0.5,Moselle Franconian
+WITJUNG2,WS_Dialekt,,Moselle Franconian
+WITJUNG2,WS_Standard,0.6,Moselle Franconian
+WENALT2,FG,2.4,Bavarian
+WENALT2,Interview,1.7,Bavarian
+WENALT2,Nordwind,1.4,Bavarian
+WENALT2,WS_Dialekt,2.4,Bavarian
+WENALT2,WS_Standard,1.1,Bavarian
+WEN2,FG,2,Bavarian
+WEN2,Interview,1.9,Bavarian
+WEN2,Nordwind,1.2,Bavarian
+WEN2,WS_Dialekt,2,Bavarian
+WEN2,WS_Standard,1.1,Bavarian
+WENJUNG2,FG,1.8,Bavarian
+WENJUNG2,Interview,1.9,Bavarian
+WENJUNG2,Nordwind,1.3,Bavarian
+WENJUNG2,WS_Dialekt,2.1,Bavarian
+WENJUNG2,WS_Standard,1.2,Bavarian
+AMALT1,FG,2.6,Bavarian
+AMALT1,Interview,2,Bavarian
+AMALT1,Nordwind,1.7,Bavarian
+AMALT1,WS_Dialekt,2.5,Bavarian
+AMALT1,WS_Standard,1.3,Bavarian
+AM3,FG,2.4,Bavarian
+AM3,Interview,1.9,Bavarian
+AM3,Nordwind,1,Bavarian
+AM3,WS_Dialekt,2.1,Bavarian
+AM3,WS_Standard,1,Bavarian
+AMJUNG2,FG,1.7,Bavarian
+AMJUNG2,Interview,1.3,Bavarian
+AMJUNG2,Nordwind,1.3,Bavarian
+AMJUNG2,WS_Dialekt,2.3,Bavarian
+AMJUNG2,WS_Standard,1.2,Bavarian
+RALT1,FG,2.1,
+RALT1,Interview,1.5,
+RALT1,Nordwind,1.2,
+RALT1,WS_Dialekt,2.2,
+RALT1,WS_Standard,0.9,
+R3,FG,2.4,
+R3,Interview,2.3,
+R3,Nordwind,1.1,
+R3,WS_Dialekt,2.3,
+R3,WS_Standard,1,
+RJUNG1,FG,1.1,
+RJUNG1,Interview,0.9,
+RJUNG1,Nordwind,0.6,
+RJUNG1,WS_Dialekt,2.1,
+RJUNG1,WS_Standard,0.6,
+INALT1,FG,2.2,Bavarian
+INALT1,Interview,1.7,Bavarian
+INALT1,Nordwind,1.2,Bavarian
+INALT1,WS_Dialekt,2.4,Bavarian
+INALT1,WS_Standard,1.1,Bavarian
+IN6,FG,2.5,Bavarian
+IN6,Interview,2,Bavarian
+IN6,Nordwind,1.3,Bavarian
+IN6,WS_Dialekt,2.5,Bavarian
+IN6,WS_Standard,1.2,Bavarian
+INJUNG1,FG,2,Bavarian
+INJUNG1,Interview,1.7,Bavarian
+INJUNG1,Nordwind,1,Bavarian
+INJUNG1,WS_Dialekt,2.3,Bavarian
+INJUNG1,WS_Standard,1.1,Bavarian
+MALT1,FG,2,Bavarian
+MALT1,Interview,1.9,Bavarian
+MALT1,Nordwind,1.2,Bavarian
+MALT1,WS_Dialekt,2.4,Bavarian
+MALT1,WS_Standard,1.3,Bavarian
+M9,FG,2.3,Bavarian
+M9,Interview,2.2,Bavarian
+M9,Nordwind,1.2,Bavarian
+M9,WS_Dialekt,2.4,Bavarian
+M9,WS_Standard,1.1,Bavarian
+MJUNG1,FG,0.8,Bavarian
+MJUNG1,Interview,0.9,Bavarian
+MJUNG1,Nordwind,0.5,Bavarian
+MJUNG1,WS_Dialekt,0.6,Bavarian
+MJUNG1,WS_Standard,0.4,Bavarian
+OLALT3,FG,2.3,Northern Low German
+OLALT3,Interview,0.7,Northern Low German
+OLALT3,Nordwind,0.5,Northern Low German
+OLALT3,WS_Dialekt,2.6,Northern Low German
+OLALT3,WS_Standard,0.7,Northern Low German
+OLJUNG,FG,0.5,Northern Low German
+OLJUNG,Interview,0.5,Northern Low German
+OLJUNG,Nordwind,0.3,Northern Low German
+OLJUNG,WS_Dialekt,,Northern Low German
+OLJUNG,WS_Standard,0.3,Northern Low German
+BÜDJUNG1,FG,1.0,
+BÜDJUNG1,Interview,0.9,
+BÜDJUNG1,Nordwind,0.6,
+BÜDJUNG1,WS_Dialekt,1.7,
+BÜDJUNG1,WS_Standard,0.7,
+BÜD3,FG,1.6,
+BÜD3,Interview,1.4,
+BÜD3,Nordwind,0.8,
+BÜD3,WS_Dialekt,2.1,
+BÜD3,WS_Standard,0.9,
+BÜDALT1,FG,2.2,
+BÜDALT1,Interview,2.1,
+BÜDALT1,Nordwind,1.3,
+BÜDALT1,WS_Dialekt,2.2,
+BÜDALT1,WS_Standard,1.2,
+FBJUNG1,FG,1.1,Central Hessian
+FBJUNG1,Interview,1.0,Central Hessian
+FBJUNG1,Nordwind,0.8,Central Hessian
+FBJUNG1,WS_Dialekt,1.5,Central Hessian
+FBJUNG1,WS_Standard,0.7,Central Hessian
+FB1,FG,1.3,Central Hessian
+FB1,Interview,1.1,Central Hessian
+FB1,Nordwind,0.6,Central Hessian
+FB1,WS_Dialekt,1.8,Central Hessian
+FB1,WS_Standard,0.6,Central Hessian
+FBALT2,FG,2.1,Central Hessian
+FBALT2,Interview,2.0,Central Hessian
+FBALT2,Nordwind,1.0,Central Hessian
+FBALT2,WS_Dialekt,2.2,Central Hessian
+FBALT2,WS_Standard,1.2,Central Hessian
+GIJUNG,FG,1.1,Central Hessian
+GIJUNG,Interview,1.0,Central Hessian
+GIJUNG,Nordwind,0.7,Central Hessian
+GIJUNG,WS_Dialekt,1.7,Central Hessian
+GIJUNG,WS_Standard,0.6,Central Hessian
+GI11,FG,1.3,Central Hessian
+GI11,Interview,1.2,Central Hessian
+GI11,Nordwind,0.8,Central Hessian
+GI11,WS_Dialekt,2.2,Central Hessian
+GI11,WS_Standard,1.1,Central Hessian
+GIALT1,Interview,1.3,Central Hessian
+GIALT1,Nordwind,1.0,Central Hessian
+GIALT1,WS_Dialekt,2.0,Central Hessian
+GIALT1,WS_Standard,1.1,Central Hessian
+VBJUNG1,FG,2.5,Central Hessian
+VBJUNG1,Interview,1.3,Central Hessian
+VBJUNG1,Nordwind,1.0,Central Hessian
+VBJUNG1,WS_Dialekt,2.6,Central Hessian
+VBJUNG1,WS_Standard,1.1,Central Hessian
+VB2,FG,2.5,Central Hessian
+VB2,Interview,1.4,Central Hessian
+VB2,Nordwind,1.0,Central Hessian
+VB2,WS_Dialekt,2.6,Central Hessian
+VB2,WS_Standard,1.0,Central Hessian
+VBALT2,FG,2.5,Central Hessian
+VBALT2,Interview,1.7,Central Hessian
+VBALT2,Nordwind,1.4,Central Hessian
+VBALT2,WS_Dialekt,2.9,Central Hessian
+VBALT2,WS_Standard,1.4,Central Hessian
+FJUNG1,FG,1.1,
+FJUNG1,Interview,1.0,
+FJUNG1,Nordwind,0.7,
+FJUNG1,WS_Dialekt,1.3,
+FJUNG1,WS_Standard,0.6,
+F1,FG,1.8,
+F1,Interview,1.4,
+F1,Nordwind,0.7,
+F1,WS_Dialekt,1.8,
+F1,WS_Standard,0.9,
+FALT1,FG,1.9,
+FALT1,Interview,1.8,
+FALT1,Nordwind,0.8,
+FALT1,WS_Dialekt,2.0,
+FALT1,WS_Standard,1.0,
+ERBJUNG1,FG,2.0,Rhine Franconian
+ERBJUNG1,Interview,1.6,Rhine Franconian
+ERBJUNG1,Nordwind,0.7,Rhine Franconian
+ERBJUNG1,WS_Dialekt,2.0,Rhine Franconian
+ERBJUNG1,WS_Standard,0.9,Rhine Franconian
+ERB2,FG,2.1,Rhine Franconian
+ERB2,Interview,1.7,Rhine Franconian
+ERB2,Nordwind,1.0,Rhine Franconian
+ERB2,WS_Dialekt,2.1,Rhine Franconian
+ERB2,WS_Standard,1.3,Rhine Franconian
+ERBALT1,FG,2.1,Rhine Franconian
+ERBALT1,Interview,1.8,Rhine Franconian
+ERBALT1,Nordwind,1.3,Rhine Franconian
+ERBALT1,WS_Dialekt,2.2,Rhine Franconian
+ERBALT1,WS_Standard,1.3,Rhine Franconian
+DAJUNG1,FG,1.3,Rhine Franconian
+DAJUNG1,Interview,1.3,Rhine Franconian
+DAJUNG1,Nordwind,0.7,Rhine Franconian
+DAJUNG1,WS_Dialekt,1.5,Rhine Franconian
+DAJUNG1,WS_Standard,0.8,Rhine Franconian
+DA1,FG,1.9,Rhine Franconian
+DA1,Interview,1.4,Rhine Franconian
+DA1,Nordwind,0.9,Rhine Franconian
+DA1,WS_Dialekt,1.9,Rhine Franconian
+DA1,WS_Standard,1.0,Rhine Franconian
+DAALT2,FG,2.0,Rhine Franconian
+DAALT2,Interview,1.6,Rhine Franconian
+DAALT2,Nordwind,1.2,Rhine Franconian
+DAALT2,WS_Dialekt,2.1,Rhine Franconian
+DAALT2,WS_Standard,1.1,Rhine Franconian
+KR5,FG,1.6,
+KR5,Interview,1.3,
+KR5,Nordwind,0.8,
+KR5,WS_Dialekt,2.5,
+KR5,WS_Standard,0.7,
+KRALT3,FG,2.0,
+KRALT3,Interview,1.2,
+KRALT3,Nordwind,0.9,
+KRALT3,WS_Dialekt,2.6,
+KRALT3,WS_Standard,0.8,
+KRJUNG1,FG,1.3,
+KRJUNG1,Interview,1.2,
+KRJUNG1,Nordwind,0.7,
+KRJUNG1,WS_Dialekt,1.3,
+KRJUNG1,WS_Standard,0.7,
+MG6,FG,1.2,
+MG6,Interview,1.3,
+MG6,Nordwind,0.8,
+MG6,WS_Dialekt,1.2,
+MG6,WS_Standard,0.8,
+MGALT,FG,2.1,
+MGALT,Interview,1.3,
+MGALT,Nordwind,0.8,
+MGALT,WS_Dialekt,2.7,
+MGALT,WS_Standard,0.9,
+MGJUNG1,FG,1.3,
+MGJUNG1,Interview,1.2,
+MGJUNG1,Nordwind,0.6,
+MGJUNG1,WS_Dialekt,1.4,
+MGJUNG1,WS_Standard,0.6,
+GL3,FG,1.3,Ripuarian
+GL3,Interview,1.3,Ripuarian
+GL3,Nordwind,0.6,Ripuarian
+GL3,WS_Dialekt,1.3,Ripuarian
+GL3,WS_Standard,0.6,Ripuarian
+GLALT1,FG,2.0,Ripuarian
+GLALT1,Interview,1.3,Ripuarian
+GLALT1,Nordwind,0.6,Ripuarian
+GLALT1,WS_Dialekt,2.2,Ripuarian
+GLALT1,WS_Standard,1.0,Ripuarian
+GLJUNG1,FG,1.3,Ripuarian
+GLJUNG1,Interview,1.2,Ripuarian
+GLJUNG1,Nordwind,0.7,Ripuarian
+GLJUNG1,WS_Dialekt,1.7,Ripuarian
+GLJUNG1,WS_Standard,1.1,Ripuarian
+SU1,FG,1.8,Ripuarian
+SU1,Interview,1.3,Ripuarian
+SU1,Nordwind,0.6,Ripuarian
+SU1,WS_Dialekt,1.8,Ripuarian
+SU1,WS_Standard,0.6,Ripuarian
+SUALT,FG,2.1,Ripuarian
+SUALT,Interview,1.2,Ripuarian
+SUALT,Nordwind,1.0,Ripuarian
+SUALT,WS_Dialekt,2.0,Ripuarian
+SUALT,WS_Standard,0.8,Ripuarian
+SUJUNG2,FG,1.1,Ripuarian
+SUJUNG2,Interview,0.8,Ripuarian
+SUJUNG2,Nordwind,0.7,Ripuarian
+SUJUNG2,WS_Dialekt,1.5,Ripuarian
+SUJUNG2,WS_Standard,0.8,Ripuarian
+BOR2,FG,0.53,Westphalian
+BOR2,Interview,0.57,Westphalian
+BOR2,Nordwind,0.19,Westphalian
+BOR2,WS_Dialekt,2.3,Westphalian
+BOR2,WS_Standard,0.42,Westphalian
+BORALT1,FG,2.01,Westphalian
+BORALT1,Interview,0.8,Westphalian
+BORALT1,Nordwind,0.61,Westphalian
+BORALT1,WS_Dialekt,2.54,Westphalian
+BORALT1,WS_Standard,0.79,Westphalian
+BORJUNG1,FG,0.61,Westphalian
+BORJUNG1,Interview,0.6,Westphalian
+BORJUNG1,Nordwind,0.36,Westphalian
+BORJUNG1,WS_Dialekt,0.87,Westphalian
+BORJUNG1,WS_Standard,0.55,Westphalian
+GT3,FG,0.55,Westphalian
+GT3,Interview,0.53,Westphalian
+GT3,Nordwind,0.26,Westphalian
+GT3,WS_Dialekt,0.46,Westphalian
+GT3,WS_Standard,0.4,Westphalian
+GTALT2,FG,1.84,Westphalian
+GTALT2,Interview,0.61,Westphalian
+GTALT2,Nordwind,0.43,Westphalian
+GTALT2,WS_Dialekt,2.68,Westphalian
+GTALT2,WS_Standard,0.36,Westphalian
+GTJUNG2,FG,0.27,Westphalian
+GTJUNG2,Interview,0.27,Westphalian
+GTJUNG2,Nordwind,0.18,Westphalian
+GTJUNG2,WS_Dialekt,0.34,Westphalian
+GTJUNG2,WS_Standard,0.21,Westphalian
+HA4,FG,0.93,Westphalian
+HA4,Interview,0.62,Westphalian
+HA4,Nordwind,0.48,Westphalian
+HA4,WS_Dialekt,0.75,Westphalian
+HA4,WS_Standard,0.58,Westphalian
+HAALT1,FG,0.72,Westphalian
+HAALT1,Interview,0.54,Westphalian
+HAALT1,Nordwind,0.47,Westphalian
+HAALT1,WS_Dialekt,2.45,Westphalian
+HAALT1,WS_Standard,0.69,Westphalian
+HAJUNG1,FG,0.3,Westphalian
+HAJUNG1,Interview,0.31,Westphalian
+HAJUNG1,Nordwind,0.31,Westphalian
+HAJUNG1,WS_Dialekt,0.52,Westphalian
+HAJUNG1,WS_Standard,0.31,Westphalian
+LIP5,FG,0.62,Westphalian
+LIP5,Interview,0.55,Westphalian
+LIP5,Nordwind,0.4,Westphalian
+LIP5,WS_Dialekt,0.39,Westphalian
+LIP5,WS_Standard,0.45,Westphalian
+LIPALT1,FG,0.65,Westphalian
+LIPALT1,Interview,1.01,Westphalian
+LIPALT1,Nordwind,0.57,Westphalian
+LIPALT1,WS_Dialekt,2.6,Westphalian
+LIPALT1,WS_Standard,0.55,Westphalian
+LIPJUNG2,FG,0.2,Westphalian
+LIPJUNG2,Interview,0.23,Westphalian
+LIPJUNG2,Nordwind,0.11,Westphalian
+LIPJUNG2,WS_Dialekt,1.07,Westphalian
+LIPJUNG2,WS_Standard,0.2,Westphalian
+OE7,FG,0.73,Westphalian
+OE7,Interview,0.55,Westphalian
+OE7,Nordwind,0.29,Westphalian
+OE7,WS_Dialekt,2.2,Westphalian
+OE7,WS_Standard,0.36,Westphalian
+OEALT2,FG,1.87,Westphalian
+OEALT2,Interview,0.95,Westphalian
+OEALT2,Nordwind,0.68,Westphalian
+OEALT2,WS_Dialekt,2.8,Westphalian
+OEALT2,WS_Standard,0.84,Westphalian
+OEJUNG,FG,0.75,Westphalian
+OEJUNG,Interview,0.52,Westphalian
+OEJUNG,Nordwind,0.48,Westphalian
+OEJUNG,WS_Dialekt,0.42,Westphalian
+OEJUNG,WS_Standard,0.4,Westphalian
+HBSALT2,FG,0.9,East Phalian
+HBSALT2,Interview,0.9,East Phalian
+HBSALT2,Nordwind,0.6,East Phalian
+HBSALT2,WS_Dialekt,0.8,East Phalian
+HBSALT2,WS_Standard,0.5,East Phalian
+HBS9,FG,0.9,East Phalian
+HBS9,Interview,0.9,East Phalian
+HBS9,Nordwind,0.5,East Phalian
+HBS9,WS_Dialekt,0.5,East Phalian
+HBS9,WS_Standard,0.5,East Phalian
+HBSJUNG2,FG,0.4,East Phalian
+HBSJUNG2,Interview,0.5,East Phalian
+HBSJUNG2,Nordwind,0.5,East Phalian
+HBSJUNG2,WS_Dialekt,1.1,East Phalian
+HBSJUNG2,WS_Standard,0.4,East Phalian
+OL5,FG,0.6,Northern Low German
+OL5,Interview,0.5,Northern Low German
+OL5,Nordwind,0.2,Northern Low German
+OL5,WS_Standard,0.5,Northern Low German
+SEALT2,FG,1.9,Northern Low German
+SEALT2,Interview,0.7,Northern Low German
+SEALT2,Nordwind,0.4,Northern Low German
+SEALT2,WS_Dialekt,2.2,Northern Low German
+SEALT2,WS_Standard,0.7,Northern Low German
+SE2,FG,0.9,Northern Low German
+SE2,Interview,0.7,Northern Low German
+SE2,Nordwind,0.4,Northern Low German
+SE2,WS_Standard,0.5,Northern Low German
+SEJUNG1,FG,0.6,Northern Low German
+SEJUNG1,Interview,0.6,Northern Low German
+SEJUNG1,Nordwind,0.4,Northern Low German
+SEJUNG1,WS_Standard,0.4,Northern Low German
+SN2,FG,0.7,Mecklenburgish Pomeranian
+SN2,Interview,0.5,Mecklenburgish Pomeranian
+SN2,Nordwind,0.3,Mecklenburgish Pomeranian
+SN2,WS_Dialekt,2.2,Mecklenburgish Pomeranian
+SN2,WS_Standard,0.4,Mecklenburgish Pomeranian
+SNALT2,FG,1.7,Mecklenburgish Pomeranian
+SNALT2,Interview,0.7,Mecklenburgish Pomeranian
+SNALT2,Nordwind,0.4,Mecklenburgish Pomeranian
+SNALT2,WS_Dialekt,2.2,Mecklenburgish Pomeranian
+SNALT2,WS_Standard,0.5,Mecklenburgish Pomeranian
+SNJUNG1,FG,0.7,Mecklenburgish Pomeranian
+SNJUNG1,Interview,0.7,Mecklenburgish Pomeranian
+SNJUNG1,Nordwind,0.5,Mecklenburgish Pomeranian
+SNJUNG1,WS_Standard,0.3,Mecklenburgish Pomeranian
+RUEG1,FG,1.2,Mecklenburgish Pomeranian
+RUEG1,Interview,1.1,Mecklenburgish Pomeranian
+RUEG1,Nordwind,0.7,Mecklenburgish Pomeranian
+RUEG1,WS_Dialekt,1.8,Mecklenburgish Pomeranian
+RUEG1,WS_Standard,0.8,Mecklenburgish Pomeranian
+RUEGALT2,FG,2.7,Mecklenburgish Pomeranian
+RUEGALT2,Interview,1.4,Mecklenburgish Pomeranian
+RUEGALT2,Nordwind,0.8,Mecklenburgish Pomeranian
+RUEGALT2,WS_Dialekt,2.8,Mecklenburgish Pomeranian
+RUEGALT2,WS_Standard,1.1,Mecklenburgish Pomeranian
+RUEGJUNG1,FG,1.1,Mecklenburgish Pomeranian
+RUEGJUNG1,Interview,1.1,Mecklenburgish Pomeranian
+RUEGJUNG1,Nordwind,0.7,Mecklenburgish Pomeranian
+RUEGJUNG1,WS_Standard,0.8,Mecklenburgish Pomeranian
+NOM3,FG,1.0,East Phalian
+NOM3,Interview,0.9,East Phalian
+NOM3,Nordwind,0.5,East Phalian
+NOM3,WS_Dialekt,1.1,East Phalian
+NOM3,WS_Standard,0.4,East Phalian
+NOMALT1,FG,1.4,East Phalian
+NOMALT1,Interview,1.0,East Phalian
+NOMALT1,Nordwind,0.6,East Phalian
+NOMALT1,WS_Dialekt,1.92,East Phalian
+NOMALT1,WS_Standard,0.8,East Phalian
+NOMJUNG,FG,0.9,East Phalian
+NOMJUNG,Interview,0.7,East Phalian
+NOMJUNG,Nordwind,0.4,East Phalian
+NOMJUNG,WS_Dialekt,1.3,East Phalian
+NOMJUNG,WS_Standard,0.6,East Phalian
+KL3,FG,1.6,Rhine Franconian
+KL3,Interview,1.0,Rhine Franconian
+KL3,Nordwind,0.8,Rhine Franconian
+KL3,WS_Dialekt,1.6,Rhine Franconian
+KL3,WS_Standard,0.6,Rhine Franconian
+KLALT1,FG,1.2,Rhine Franconian
+KLALT1,Interview,1.4,Rhine Franconian
+KLALT1,Nordwind,1.0,Rhine Franconian
+KLALT1,WS_Dialekt,1.9,Rhine Franconian
+KLALT1,WS_Standard,0.7,Rhine Franconian
+KLJUNG1,FG,1.7,Rhine Franconian
+KLJUNG1,Interview,0.9,Rhine Franconian
+KLJUNG1,Nordwind,0.5,Rhine Franconian
+KLJUNG1,WS_Dialekt,1.8,Rhine Franconian
+KLJUNG1,WS_Standard,0.3,Rhine Franconian
+HR4,FG,1.1,North Hessian
+HR4,Interview,1.1,North Hessian
+HR4,Nordwind,0.8,North Hessian
+HR4,WS_Dialekt,1.9,North Hessian
+HR4,WS_Standard,0.9,North Hessian
+HRALT2,FG,0.9,North Hessian
+HRALT2,Interview,0.8,North Hessian
+HRALT2,Nordwind,0.8,North Hessian
+HRALT2,WS_Dialekt,1.7,North Hessian
+HRALT2,WS_Standard,0.7,North Hessian
+HRJUNG1,FG,1.0,North Hessian
+HRJUNG1,Interview,0.9,North Hessian
+HRJUNG1,Nordwind,0.4,North Hessian
+HRJUNG1,WS_Dialekt,1.0,North Hessian
+HRJUNG1,WS_Standard,0.4,North Hessian
+TUT3,FG,1.8,Middle Alemannic
+TUT3,Interview,1.6,Middle Alemannic
+TUT3,Nordwind,1.0,Middle Alemannic
+TUT3,WS_Dialekt,2.1,Middle Alemannic
+TUT3,WS_Standard,0.8,Middle Alemannic
+TUTALT2,FG,1.7,Middle Alemannic
+TUTALT2,Interview,1.2,Middle Alemannic
+TUTALT2,Nordwind,1.0,Middle Alemannic
+TUTALT2,WS_Dialekt,1.8,Middle Alemannic
+TUTALT2,WS_Standard,0.7,Middle Alemannic
+TUTJUNG1,FG,0.8,Middle Alemannic
+TUTJUNG1,Interview,0.6,Middle Alemannic
+TUTJUNG1,Nordwind,0.5,Middle Alemannic
+TUTJUNG1,WS_Dialekt,1.8,Middle Alemannic
+TUTJUNG1,WS_Standard,0.5,Middle Alemannic
+FDALT3,WS_Standard,1.0,East Hessian
+FDALT3,Nordwind,0.9,East Hessian
+FDALT3,Interview,1.1,East Hessian
+FDALT3,FG,2.0,East Hessian
+FDALT3,WS_Dialekt,2.3,East Hessian
+FD4,WS_Standard,0.5,East Hessian
+FD4,Nordwind,0.6,East Hessian
+FD4,Interview,0.9,East Hessian
+FD4,FG,2.0,East Hessian
+FD4,WS_Dialekt,2.3,East Hessian
+FDJUNG1,WS_Standard,0.3,East Hessian
+FDJUNG1,Nordwind,0.3,East Hessian
+FDJUNG1,Interview,1.0,East Hessian
+FDJUNG1,FG,0.9,East Hessian
+FDJUNG1,WS_Dialekt,1.9,East Hessian
+PRALT2,WS_Standard,1.1,Brandenburgian
+PRALT2,Nordwind,1,Brandenburgian
+PRALT2,Interview,1.8,Brandenburgian
+PRALT2,FG,1.3,Brandenburgian
+PRALT2,WS_Dialekt,2,Brandenburgian
+PR1,WS_Standard,1.1,Brandenburgian
+PR1,Nordwind,1.1,Brandenburgian
+PR1,Interview,1.2,Brandenburgian
+PR1,FG,1.2,Brandenburgian
+PR1,WS_Dialekt,1.9,Brandenburgian
+PRJUNG2,WS_Standard,0.8,Brandenburgian
+PRJUNG2,Nordwind,0.9,Brandenburgian
+PRJUNG2,Interview,1.2,Brandenburgian
+PRJUNG2,FG,1.5,Brandenburgian
+PRJUNG2,WS_Dialekt,1.3,Brandenburgian
+ANALT2,WS_Standard,1.1,East Franconian
+ANALT2,Nordwind,1.1,East Franconian
+ANALT2,Interview,1.4,East Franconian
+ANALT2,FG,1.7,East Franconian
+ANALT2,WS_Dialekt,1.9,East Franconian
+AN3,WS_Standard,0.6,East Franconian
+AN3,Nordwind,0.8,East Franconian
+AN3,Interview,1.3,East Franconian
+AN3,FG,1.7,East Franconian
+AN3,WS_Dialekt,1.8,East Franconian
+ANJUNG,WS_Standard,0.8,East Franconian
+ANJUNG,Nordwind,1.2,East Franconian
+ANJUNG,Interview,1.3,East Franconian
+ANJUNG,FG,1.6,East Franconian
+ANJUNG,WS_Dialekt,1.9,East Franconian
+VSALT2,WS_Standard,0.8,Middle Alemannic
+VSALT2,Nordwind,0.8,Middle Alemannic
+VSALT2,Interview,1.5,Middle Alemannic
+VSALT2,FG,1.8,Middle Alemannic
+VSALT2,WS_Dialekt,2.4,Middle Alemannic
+VS3,WS_Standard,0.6,Middle Alemannic
+VS3,Nordwind,0.7,Middle Alemannic
+VS3,Interview,1.3,Middle Alemannic
+VS3,FG,1.5,Middle Alemannic
+VS3,WS_Dialekt,2.3,Middle Alemannic
+VSJUNG1,WS_Standard,0.6,Middle Alemannic
+VSJUNG1,Nordwind,0.5,Middle Alemannic
+VSJUNG1,Interview,1.4,Middle Alemannic
+VSJUNG1,FG,1.8,Middle Alemannic
+VSJUNG1,WS_Dialekt,2.3,Middle Alemannic
+PALT1,WS_Standard,0.7,Brandenburgian
+PALT1,Nordwind,0.8,Brandenburgian
+PALT1,Interview,0.9,Brandenburgian
+PALT1,FG,0.9,Brandenburgian
+PALT1,WS_Dialekt,0.8,Brandenburgian
+P9,WS_Standard,0.5,Brandenburgian
+P9,Nordwind,0.5,Brandenburgian
+P9,Interview,1.0,Brandenburgian
+P9,FG,1.2,Brandenburgian
+P9,WS_Dialekt,0.7,Brandenburgian
+PJUNG1,WS_Standard,0.5,Brandenburgian
+PJUNG1,Nordwind,0.5,Brandenburgian
+PJUNG1,Interview,0.9,Brandenburgian
+PJUNG1,FG,0.7,Brandenburgian
+PJUNG1,WS_Dialekt,0.6,Brandenburgian
+OGALT,WS_Standard,0.8,High Alemannic
+OGALT,Nordwind,1.1,High Alemannic
+OGALT,Interview,2.0,High Alemannic
+OGALT,FG,2.3,High Alemannic
+OGALT,WS_Dialekt,2.2,High Alemannic
+OG2,WS_Standard,0.7,High Alemannic
+OG2,Nordwind,0.9,High Alemannic
+OG2,Interview,1.4,High Alemannic
+OG2,FG,2.0,High Alemannic
+OG2,WS_Dialekt,2.2,High Alemannic
+OGJUNG2,WS_Standard,0.5,High Alemannic
+OGJUNG3,Nordwind,0.6,
+OGJUNG4,Interview,1.3,
+OGJUNG5,FG,1.9,
+OGJUNG6,WS_Dialekt,1.6,
+RVALT,FG,1.9,Middle Alemannic
+RVALT,Interview,1.6,Middle Alemannic
+RVALT,Nordwind,0.9,Middle Alemannic
+RVALT,WS_Dialekt,2.1,Middle Alemannic
+RVALT,WS_Standard,0.8,Middle Alemannic
+RV2,FG,1.8,Middle Alemannic
+RV2,Interview,1.7,Middle Alemannic
+RV2,Nordwind,0.9,Middle Alemannic
+RV2,WS_Dialekt,2.0,Middle Alemannic
+RV2,WS_Standard,0.8,Middle Alemannic
+RVJUNG1,FG,1.9,Middle Alemannic
+RVJUNG1,Interview,1.2,Middle Alemannic
+RVJUNG1,Nordwind,0.9,Middle Alemannic
+RVJUNG1,WS_Dialekt,1.9,Middle Alemannic
+RVJUNG1,WS_Standard,0.9,Middle Alemannic
+OPRALT2,FG,1.4,Brandenburgian
+OPRALT2,Interview,1.4,Brandenburgian
+OPRALT2,Nordwind,1,Brandenburgian
+OPRALT2,WS_Dialekt,1.3,Brandenburgian
+OPRALT2,WS_Standard,1,Brandenburgian
+OPR1,FG,1.5,Brandenburgian
+OPR1,Interview,1.1,Brandenburgian
+OPR1,Nordwind,0.8,Brandenburgian
+OPR1,WS_Dialekt,1.1,Brandenburgian
+OPR1,WS_Standard,0.7,Brandenburgian
+OPRJUNG1,FG,1.6,Brandenburgian
+OPRJUNG1,Interview,1.3,Brandenburgian
+OPRJUNG1,Nordwind,1.1,Brandenburgian
+OPRJUNG1,WS_Dialekt,1.2,Brandenburgian
+OPRJUNG1,WS_Standard,0.8,Brandenburgian
+LGALT1,FG,1.7,
+LGALT1,Interview,1.1,
+LGALT1,Nordwind,0.4,
+LGALT1,WS_Dialekt,2.6,
+LGALT1,WS_Standard,0.6,
+LG5,FG,0.9,
+LG5,Interview,1.0,
+LG5,Nordwind,0.7,
+LG5,WS_Dialekt,2.3,
+LG5,WS_Standard,0.7,
+LGJUNG1,FG,1.1,
+LGJUNG1,Interview,1.0,
+LGJUNG1,Nordwind,0.7,
+LGJUNG1,WS_Dialekt,1.3,
+LGJUNG1,WS_Standard,0.7,
+CLPALT2,FG,2.3,Northern Low German
+CLPALT2,Interview,1.8,Northern Low German
+CLPALT2,Nordwind,1.0,Northern Low German
+CLPALT2,WS_Dialekt,2.6,Northern Low German
+CLPALT2,WS_Standard,1.0,Northern Low German
+CLP3,FG,2.0,Northern Low German
+CLP3,Interview,1.1,Northern Low German
+CLP3,Nordwind,0.8,Northern Low German
+CLP3,WS_Dialekt,2.3,Northern Low German
+CLP3,WS_Standard,0.8,Northern Low German
+CLPJUNG,FG,1.1,Northern Low German
+CLPJUNG,Interview,1.0,Northern Low German
+CLPJUNG,Nordwind,0.7,Northern Low German
+CLPJUNG,WS_Dialekt,1.3,Northern Low German
+CLPJUNG,WS_Standard,0.7,Northern Low German
+HALT2,FG,1.7,
+HALT2,Interview,0.9,
+HALT2,Nordwind,0.7,
+HALT2,WS_Dialekt,2.4,
+HALT2,WS_Standard,0.6,
+H10,FG,1.9,
+H10,Interview,0.8,
+H10,Nordwind,0.7,
+H10,WS_Dialekt,2.1,
+H10,WS_Standard,0.5,
+HJUNG,FG,1.5,
+HJUNG,Interview,1.3,
+HJUNG,Nordwind,0.6,
+HJUNG,WS_Dialekt,2.3,
+HJUNG,WS_Standard,0.9,
+BRBALT2,FG,1.9,Brandenburgian
+BRBALT2,Interview,1.9,Brandenburgian
+BRBALT2,Nordwind,1.2,Brandenburgian
+BRBALT2,WS_Dialekt,1.3,Brandenburgian
+BRBALT2,WS_Standard,1.1,Brandenburgian
+BRB3,FG,1.8,Brandenburgian
+BRB3,Interview,1.9,Brandenburgian
+BRB3,Nordwind,1.0,Brandenburgian
+BRB3,WS_Dialekt,1.5,Brandenburgian
+BRB3,WS_Standard,1.0,Brandenburgian
+BRBJUNG3,FG,1.4,Brandenburgian
+BRBJUNG3,Interview,1.4,Brandenburgian
+BRBJUNG3,Nordwind,1.4,Brandenburgian
+BRBJUNG3,WS_Dialekt,1.1,Brandenburgian
+BRBJUNG3,WS_Standard,1.1,Brandenburgian
+SDLALT1,FG,1.9,Brandenburgian
+SDLALT1,Interview,1.6,Brandenburgian
+SDLALT1,Nordwind,1.4,Brandenburgian
+SDLALT1,WS_Dialekt,1.4,Brandenburgian
+SDLALT1,WS_Standard,1.5,Brandenburgian
+SDL1,FG,1.2,Brandenburgian
+SDL1,Interview,1.1,Brandenburgian
+SDL1,Nordwind,1.4,Brandenburgian
+SDL1,WS_Dialekt,1.1,Brandenburgian
+SDL1,WS_Standard,1.1,Brandenburgian
+SDLJUNG1,FG,2.1,
+SDLJUNG1,Interview,1.9,
+SDLJUNG1,Nordwind,1.3,
+SDLJUNG1,WS_Dialekt,1.4,
+SDLJUNG1,WS_Standard,1.2,
+FWALT2,FG,1.6,
+FWALT2,Interview,1.8,
+FWALT2,Nordwind,1.2,
+FWALT2,WS_Dialekt,1.4,
+FWALT2,WS_Standard,1.1,
+FW21,FG,1.4,
+FW21,Interview,1.3,
+FW21,Nordwind,0.7,
+FW21,WS_Dialekt,1.1,
+FW21,WS_Standard,0.8,
+FWJUNG1,FG,1.5,
+FWJUNG1,Interview,1.3,
+FWJUNG1,Nordwind,1.1,
+FWJUNG1,WS_Dialekt,1.2,
+FWJUNG1,WS_Standard,0.9,

@@ -165,6 +165,9 @@ cython_debug/
 *.pkl
 *.csv
 
+!data/
+!data/*.csv
+
 #tb
 tb_callback_dir_*
 
