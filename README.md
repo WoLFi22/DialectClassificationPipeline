@@ -1,6 +1,6 @@
 # Speech-Audio Classification Pipeline
 
-This repository provides a pipeline for dialect classification using deep learning on raw audio files. The pipeline utilizes a Google model to extract embeddings from audio segments of uniform length, which are then classified with a small Convolutional Neural Network (CNN).  
+This repository provides a pipeline for dialect classification using deep learning on raw audio files. The pipeline utilizes a Google model to extract embeddings from audio segments of uniform length, which are then classified with a Multilayer Perceptron (MLP).  
 
 ### Key Features
 - Easily Adjustable Parameters: The main parameters are easily customizable, allowing for repeated use of the pipeline and facilitating experimentation.
@@ -22,6 +22,7 @@ This pipeline simplifies the exploration of dialectal differences, making resear
 - [Folder structure](#folder-structure)
 - [Audio Specifications](#audio-specifications)
 - [Usage Instructions](#usage-instructions)
+- [Pretrained Model](#pretrained-model)
 
 
 ## Requirements
@@ -109,11 +110,43 @@ In this section, you'll find detailed instructions on how to effectively utilize
 
 In the following grphic, you can see an image of the entire pipeline. It is divided into its individual steps. The gray dashed blocks each represent a notebook. Under these blocks, you will find the name of the notebook and the most important parameters, which can be adjusted in the `_00_Pipeline.ipynb` file.
 
-![Pipeline](https://github.com/user-attachments/assets/7272a6f0-5482-429d-8289-75d211c9c8f4)
+![Pipeline](https://github.com/user-attachments/assets/89334372-4c31-4b50-bdb3-c16e9e6b7a46)
 
 
 All other parameters that can be adjusted are also listed in the `_00_Pipeline.ipynb` file. Once all parameters are correctly filled in, the `_00_Pipeline.ipynb` notebook can be executed.
 
 Additionally, the most important functions in the individual notebooks are described with their parameters in the notebooks itself, even if these do not need to be changed for execution.
+
+## Pretrained Model
+
+This repository provides a pretrained model that can be used for inference or as initialization for further training.
+The model corresponds to the experimental setup described and used in *[Paper XY]*.
+
+### Model Details
+- **File**: `model_weights_0.h5`
+- **Training Data**:
+  - 18 German dialect classes
+  - >42 hours of speech data
+  - Multiple speaker generations
+- **Input Representation**:
+  - 10 s segments (16 kHz mono)
+
+### Using the Pretrained Model
+
+To run the pipeline with the provided pretrained weights, adjust the following parameters in `_00_Pipeline.ipynb`:
+
+- Set the dense layer size to match the pretrained model:
+
+```python
+# units dense layer
+units = 512
+```
+
+- Enable test-only mode to skip training:
+
+```python
+# when True the Model makes predictions on Audios in 'data_path_test'
+test_only = True
+```
 
 <!-- ## Citation / ## Published Papers -->
