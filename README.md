@@ -168,25 +168,20 @@ This repository includes an extension of the pipeline that derives a **continuou
 Unlike the main classification task, which predicts discrete dialect classes, the EDS models dialectal variation as a **continuous value** based on the embeddings produced by the pipeline.  
 
 The dialect score is computed using two complementary approaches:
-
 - **Distance-based score**  
   Measures how far an embedding is from a learned standard reference point.
-
 - **Projection-based score**  
   Measures how strongly an embedding aligns with a dialect–standard direction in embedding space.
 
 The two scores are combined into a single dialectality measure:
-
 - A weighting factor is automatically determined
 - The optimal weight is selected based on correlation with external dialectality values (in this case D-values)
 - This results in a **final continuous dialect score for each embedding**
 
 The full workflow is implemented in:
-
 - `_01_EmbeddingDialectScore.ipynb`
 
 The notebook includes:
-
 - computation of distance- and projection-based scores
 - automatic weighting of both components
 - assignment of final dialectality scores
