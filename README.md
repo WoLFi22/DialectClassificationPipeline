@@ -34,7 +34,7 @@ This pipeline simplifies the exploration of dialectal differences, making resear
     - [Model Details](#model-details)
     - [Using the Pretrained Model](#using-the-pretrained-model)
   - [Embedding-based Dialect Score (EDS)](#embedding-based-dialect-score-eds)
-  - [Phonetic reference: D-values](#phonetic-reference-d-values)
+    - [Phonetic reference: D-values](#phonetic-reference-d-values)
 
 
 ## Requirements
@@ -181,7 +181,7 @@ This notebook provides:
 - aggregation across speakers and recording conditions
 - evaluation against phonetic D-values
 
-## Phonetic reference: D-values
+### Phonetic reference: D-values
 
 To evaluate the embedding-based dialect score, we use D-values as an external phonetic reference.
 
