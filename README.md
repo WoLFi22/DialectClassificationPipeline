@@ -18,11 +18,23 @@ This pipeline simplifies the exploration of dialectal differences, making resear
 
 ### Contents
 
-- [Requirements](#requirements)
-- [Folder structure](#folder-structure)
-- [Audio Specifications](#audio-specifications)
-- [Usage Instructions](#usage-instructions)
-- [Pretrained Model](#pretrained-model)
+- [Speech-Audio Classification Pipeline](#speech-audio-classification-pipeline)
+    - [Key Features](#key-features)
+    - [Getting Started](#getting-started)
+    - [Contents](#contents)
+  - [Requirements](#requirements)
+    - [Main Dependencies](#main-dependencies)
+    - [Additional Dependencies for Preprocessing and Augmentation](#additional-dependencies-for-preprocessing-and-augmentation)
+    - [GPU Support](#gpu-support)
+    - [Installation](#installation)
+  - [Folder structure](#folder-structure)
+  - [Audio Specifications](#audio-specifications)
+  - [Usage Instructions](#usage-instructions)
+  - [Pretrained Model](#pretrained-model)
+    - [Model Details](#model-details)
+    - [Using the Pretrained Model](#using-the-pretrained-model)
+  - [Embedding-based Dialect Score (EDS)](#embedding-based-dialect-score-eds)
+  - [Phonetic reference: D-values](#phonetic-reference-d-values)
 
 
 ## Requirements
@@ -108,7 +120,7 @@ For preprocessing the audio data accordingly, refer to the 'Preprocessing' noteb
 
 In this section, you'll find detailed instructions on how to effectively utilize the main file of this repository. Follow these steps to get started with the provided functionality.
 
-In the following grphic, you can see an image of the entire pipeline. It is divided into its individual steps. The gray dashed blocks each represent a notebook. Under these blocks, you will find the name of the notebook and the most important parameters, which can be adjusted in the `_00_Pipeline.ipynb` file.
+In the following graphic, you can see an image of the entire pipeline. It is divided into its individual steps. The gray dashed blocks each represent a notebook. Under these blocks, you will find the name of the notebook and the most important parameters, which can be adjusted in the `_00_Pipeline.ipynb` file.
 
 ![Pipeline](https://github.com/user-attachments/assets/89334372-4c31-4b50-bdb3-c16e9e6b7a46)
 
@@ -148,5 +160,40 @@ units = 512
 # when True the Model makes predictions on Audios in 'data_path_test'
 test_only = True
 ```
+
+## Embedding-based Dialect Score (EDS)
+
+This repository includes an implementation of a continuous dialectality measure derived from speech embeddings.
+
+While most computational approaches treat dialect as a discrete classification problem, the embedding-based dialect score (EDS) models dialectal variation as a continuous geometric structure in embedding space.
+
+The score is defined by combining:
+- the distance to a standard reference
+- the projection onto a learned dialect–standard direction
+
+The implementation can be found in:
+
+- `_01_EmbeddingDialectScore.ipynb`
+
+This notebook provides:
+- estimation of a global standard reference
+- computation of projection-based dialect scores
+- aggregation across speakers and recording conditions
+- evaluation against phonetic D-values
+
+## Phonetic reference: D-values
+
+To evaluate the embedding-based dialect score, we use D-values as an external phonetic reference.
+
+D-values quantify dialectality as the average phonetic distance of a speech sample to a codified standard pronunciation at the word level. They are based on narrow phonetic transcriptions and a rule-based comparison to standard forms.
+
+This makes them a linguistically grounded measure of dialectal variation, independent of machine learning models.
+
+The file `data/d_values.csv` contains the D-values used in this repository.
+
+Further information on D-values:
+- https://rede-infothek.dsa.info/?page_id=211
+- https://www.regionalsprache.de/SprachGIS/
+
 
 <!-- ## Citation / ## Published Papers -->
