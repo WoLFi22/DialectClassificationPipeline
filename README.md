@@ -33,7 +33,7 @@ This pipeline simplifies the exploration of dialectal differences, making resear
   - [Pretrained Model](#pretrained-model)
     - [Model Details](#model-details)
     - [Using the Pretrained Model](#using-the-pretrained-model)
-  - [Dialect Distance Measure from Classification Embeddings (DIME)](#embedding-based-dialect-score-eds)
+  - [Dialect Distance Measure from Classification Embeddings (DIME)](#dialect-distance-measure-from-classification-embeddings-dime)
     - [Phonetic reference: D-values](#phonetic-reference-d-values)
 
 
