@@ -33,7 +33,7 @@ This pipeline simplifies the exploration of dialectal differences, making resear
   - [Pretrained Model](#pretrained-model)
     - [Model Details](#model-details)
     - [Using the Pretrained Model](#using-the-pretrained-model)
-  - [Embedding-based Dialect Score (EDS)](#embedding-based-dialect-score-eds)
+  - [Dialect Distance Measure from Classification Embeddings (DIME)](#embedding-based-dialect-score-eds)
     - [Phonetic reference: D-values](#phonetic-reference-d-values)
 
 
@@ -161,11 +161,11 @@ units = 512
 test_only = True
 ```
 
-## Embedding-based Dialect Score (EDS)
+## Dialect Distance Measure from Classification Embeddings (DIME)
 
 This repository includes an extension of the pipeline that derives a **continuous dialectality score** from the generated speech embeddings.
 
-Unlike the main classification task, which predicts discrete dialect classes, the EDS models dialectal variation as a **continuous value** based on the embeddings produced by the pipeline.  
+Unlike the main classification task, which predicts discrete dialect classes, the DIME models dialectal variation as a **continuous value** based on the embeddings produced by the pipeline.  
 
 The dialect score is computed using two complementary approaches:
 - **Distance-based score**  
@@ -179,7 +179,7 @@ The two scores are combined into a single dialectality measure:
 - This results in a **final continuous dialect score for each embedding**
 
 The full workflow is implemented in:
-- `_01_EmbeddingDialectScore.ipynb`
+- `01_EmbeddingDialectScore.ipynb`
 
 The notebook includes:
 - computation of distance- and projection-based scores
