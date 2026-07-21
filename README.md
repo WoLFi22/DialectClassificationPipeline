@@ -1,13 +1,21 @@
 # Speech-Audio Classification Pipeline
 
-This repository provides a pipeline for dialect classification using deep learning on raw audio files. The pipeline utilizes a Google model to extract embeddings from audio segments of uniform length, which are then classified with a Multilayer Perceptron (MLP).  
+This repository provides a pipeline for dialect classification using deep learning on raw audio files. The pipeline utilizes a Google model to extract embeddings from audio segments of uniform length, which are subsequently classified using a Multilayer Perceptron (MLP).
+
+In addition to the classification pipeline, the repository contains methods for
+deriving and analyzing a continuous dialectality measure from the learned audio
+embeddings.
 
 ### Key Features
-- Easily Adjustable Parameters: The main parameters are easily customizable, allowing for repeated use of the pipeline and facilitating experimentation.
-- Significance Testing: Includes a notebook that examines significant differences between two runs.
-- Results Visualization: Contains a notebook that saves all results as graphics from a test.
-- User-Friendly Execution: Everything is set up to run simply by executing the main file with correctly set parameters.
-- Optimized for GPU: The pipeline is designed to run on a GPU to accelerate computations.
+
+- **Easily adjustable parameters:** The main parameters are configurable, allowing for repeated use of the pipeline and facilitating experimentation.
+- **Significance testing:** The repository includes a notebook for examining  significant differences between experimental runs.
+- **Results visualization:** Evaluation results can be exported as graphical summaries.
+- **User-friendly execution:** The complete classification pipeline can be executed through the main pipeline notebook.
+- **GPU support:** The pipeline is designed to use GPU acceleration.
+- **Continuous dialectality analysis:** The `vertical` workflow implements the
+  Dialect Distance Measure from Classification Embeddings (DIME) and subsequent
+  speaker-level and segment-length analyses.
 
 ### Getting Started
 - Adjust Parameters: Configure the key parameters in the '_00_Pipeline' file to suit your experiment.
@@ -27,14 +35,16 @@ This pipeline simplifies the exploration of dialectal differences, making resear
     - [Additional Dependencies for Preprocessing and Augmentation](#additional-dependencies-for-preprocessing-and-augmentation)
     - [GPU Support](#gpu-support)
     - [Installation](#installation)
-  - [Folder structure](#folder-structure)
+  - [Input Audio Folder Structure](#input-audio-folder-structure)
   - [Audio Specifications](#audio-specifications)
   - [Usage Instructions](#usage-instructions)
   - [Pretrained Model](#pretrained-model)
     - [Model Details](#model-details)
     - [Using the Pretrained Model](#using-the-pretrained-model)
   - [Dialect Distance Measure from Classification Embeddings (DIME)](#dialect-distance-measure-from-classification-embeddings-dime)
-    - [Phonetic reference: D-values](#phonetic-reference-d-values)
+    - [DIME Workflow](#dime-workflow)
+    - [Notebooks](#notebooks)
+    - [Phonetic Reference: D-values](#phonetic-reference-d-values)
 
 
 ## Requirements
@@ -80,7 +90,7 @@ To install the required packages, you can use the following command:
 pip install -r requirements.txt
 ```
 
-## Folder structure
+## Input Audio Folder Structure
 
 <em>Paths are currently only working on Windows-Systems!</em>
 
@@ -91,28 +101,28 @@ This repository follows a specific structure for organizing audio data:
 - **Single Audio per Speaker**: Each speaker subfolder should contain only one audio file, ensuring clarity and simplicity in data organization.
 
 ```
-Audio_Folder
+Audio_Folder/
 │
-├── Class_1
-│   ├── Speaker_A
+├── Class_1/
+│   ├── Speaker_A/
 │   │   └── audio_1.wav
-│   └── Speaker_B
+│   └── Speaker_B/
 │       └── audio_2.wav
 │
-└── Class_2
-    ├── Speaker_C
+└── Class_2/
+    ├── Speaker_C/
     │   └── audio_3.wav
-    └── Speaker_D
+    └── Speaker_D/
         └── audio_4.wav
 
 ```
 
 ## Audio Specifications
 
-To ensure the pipeline operates correctly, the audio files should exhibit the following properties:
-- **Mono Format**: Ensure that all audio files are in mono format.
-- **Sampling Rate**: Set the sampling rate of the audio files to 16 kHz.
-- **Bit Depth**: Verify that the audio files have a bit depth of 16-bit.
+To ensure that the pipeline operates correctly, the audio files should have the following properties:
+- **Channels:** mono
+- **Sampling rate:** 16 kHz
+- **Bit depth:** 16 bit
 
 For preprocessing the audio data accordingly, refer to the 'Preprocessing' notebook provided in this repository. It contains instructions and code for any necessary preprocessing steps.
 
@@ -135,13 +145,15 @@ This repository provides a pretrained model that can be used for inference or as
 The model corresponds to the experimental setup described and used in *[Paper XY]*.
 
 ### Model Details
-- **File**: `model_weights_0.h5`
-- **Training Data**:
+- **File:** `model_weights_0.h5`
+- **Training data:**
   - 18 German dialect classes
-  - over 42 hours of speech data
-  - Multiple speaker generations
-- **Input Representation**:
-  - 10 s segments (16 kHz mono)
+  - more than 42 hours of speech data
+  - multiple speaker generations
+- **Input representation:**
+  - 10-second segments
+  - 16 kHz
+  - mono audio
 
 ### Using the Pretrained Model
 
@@ -163,43 +175,67 @@ test_only = True
 
 ## Dialect Distance Measure from Classification Embeddings (DIME)
 
-This repository includes an extension of the pipeline that derives a **continuous dialectality score** from the generated speech embeddings.
+This repository includes an extension of the pipeline that derives a continuous dialectality score from the generated speech embeddings.
 
-Unlike the main classification task, which predicts discrete dialect classes, the DIME models dialectal variation as a **continuous value** based on the embeddings produced by the pipeline.  
+Unlike the main classification task, which predicts discrete dialect classes, DIME models dialectal variation as a **continuous value** based on the embeddings produced by the pipeline.  
 
-The dialect score is computed using two complementary approaches:
-- **Distance-based score**  
-  Measures how far an embedding is from a learned standard reference point.
-- **Projection-based score**  
-  Measures how strongly an embedding aligns with a dialect–standard direction in embedding space.
+### DIME Workflow
 
-The two scores are combined into a single dialectality measure:
-- A weighting factor is automatically determined
-- The optimal weight is selected based on correlation with external dialectality values (in this case D-values)
-- This results in a **final continuous dialect score for each embedding**
+The workflow uses embeddings from three recording conditions:
 
-The full workflow is implemented in:
-- `01_EmbeddingDialectScore.ipynb`
+- **WSS:** Wenker sentences spoken in Standard German;
+- **WSD:** Wenker sentences translated into and spoken in the local dialect;
+- **FG:** free conversations.
 
-The notebook includes:
-- computation of distance- and projection-based scores
-- automatic weighting of both components
-- assignment of final dialectality scores
-- additional analyses and visualizations of the results
+Embeddings from an external Standard German dataset are used to estimate a
+standard-language reference center. A discriminative direction separating WSS
+and WSD is learned using logistic regression.
 
-### Phonetic reference: D-values
+Each embedding is represented by two complementary components:
 
-To evaluate the embedding-based dialect score, we use D-values as an external phonetic reference.
+1. **Projection-based component:** its signed position, relative to the external
+   Standard German center, along the discriminative WSS–WSD direction.
+2. **Distance-based component:** its distance from the external Standard German
+   center.
+
+Both components are z-normalized relative to the external Standard German
+embeddings and combined into the final DIME score:
+
+```text
+DIME(x) = w · z_dist(x) + (1 − w) · z_proj(x)
+```
+
+The weight `w` is selected by maximizing the correlation between aggregated
+DIME scores and external D-values.
+
+The following figure summarizes the complete DIME workflow, including audio
+segmentation, embedding extraction, estimation of the discriminative WSS–WSD
+direction, centering relative to the external Standard German reference,
+calculation of projection and distance scores, z-normalization, and weighted
+score combination.
+
+<!-- Insert DIME workflow figure here -->
+
+*Figure: Overview of the computation of segment-level DIME scores.*
+
+### Notebooks
+
+- **`01_EmbeddingDialectScore.ipynb`** computes segment-level DIME scores. It estimates the external Standard German center and the discriminative WSS–WSD direction, calculates the projection- and distance-based components, selects their weight using D-values, and evaluates the resulting scores.
+
+- **`02_speaker_types.ipynb`** analyzes DIME scores at the speaker level. It derives speaker-specific WSS and WSD reference ranges, examines DIME trajectories in free conversations, and classifies speakers according to their observed repertoire and shifting or switching behavior.
+
+- **`segment_length_evaluation.ipynb`** compares DIME scores obtained with different segment lengths and overlap configurations. The comparison includes correlations with D-values, WSS–WSD discrimination, local score variability, mixed-effects estimates, and agreement between configurations.
+
+### Phonetic Reference: D-values
+
+D-values are used as an external phonetic reference for evaluating the embedding-based dialectality scores.
 
 D-values quantify dialectality as the average phonetic distance of a speech sample to a codified standard pronunciation at the word level. They are based on narrow phonetic transcriptions and a rule-based comparison to standard forms.
 
-This makes them a linguistically grounded measure of dialectal variation, independent of machine learning models.
+They therefore provide a linguistically grounded measure of dialectal variation, independent of machine learning models.
 
 The file `data/d_values.csv` contains the D-values used in this repository.
 
 Further information on D-values:
 - https://rede-infothek.dsa.info/?page_id=211
 - https://www.regionalsprache.de/SprachGIS/
-
-
-<!-- ## Citation / ## Published Papers -->
