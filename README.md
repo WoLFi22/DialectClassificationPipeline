@@ -214,8 +214,7 @@ direction, centering relative to the external Standard German reference,
 calculation of projection and distance scores, z-normalization, and weighted
 score combination.
 
-<!-- Insert DIME workflow figure here -->
-
+<img width="1988" height="1134" alt="VertClas" src="https://github.com/user-attachments/assets/29b08a4b-e480-4280-82b3-6a477f8dedc3" />
 *Figure: Overview of the computation of segment-level DIME scores.*
 
 ### Notebooks
